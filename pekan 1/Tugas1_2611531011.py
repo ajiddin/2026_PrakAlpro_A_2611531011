@@ -1,6 +1,0 @@
-print("tugas praktikum 1")
-print("nama: Muhammad Dzaky Yazid")
-print("nim: 2611531011")
-print("kelas: A")
-print("mata kuliah: Algoritma dan Pemrograman")
-print("dosen pengampu: Bapak Dedi Setiawan, S.Kom., M.Kom")
