@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #program operator keanggotaan dan identitas
 print("==================================")
 print("1. Operator Keanggotaan")
@@ -53,7 +52,6 @@ print("objek1 is not objek3 =", hasil4_1011)
 print("\nperbandingkan identitas dan nilai")
 print("objek1 is objek3 =", objek1_1011 is objek3_1011)
 print("objek1 == objek3 =", objek1_1011 == objek3_1011)
-=======
 #program operator keanggotaan dan identitas
 print("==================================")
 print("1. Operator Keanggotaan")
@@ -108,4 +106,3 @@ print("objek1 is not objek3 =", hasil4_1011)
 print("\nperbandingkan identitas dan nilai")
 print("objek1 is objek3 =", objek1_1011 is objek3_1011)
 print("objek1 == objek3 =", objek1_1011 == objek3_1011)
->>>>>>> d0b6ddab57480290cf207e6042ad85afeb67d098
