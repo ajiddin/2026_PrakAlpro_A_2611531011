@@ -1,0 +1,84 @@
+print("=== PROGRAM JAM PASIR KRISTAL PALINDROMIK (PEKAN 5) ===")
+
+n_1011 = int(input("Masukkan ukuran skala jam pasir (N): "))
+
+# Border atas
+print("#", end="")
+
+for i_1011 in range(4 * n_1011 + 5):
+    print("=", end="")
+
+print("#")
+
+# Fase 1: Jam Pasir Atas
+for baris_1011 in range(n_1011, 0, -1):
+    print("| ", end="")
+
+    # Spasi penyeimbang kiri
+    for spasi_1011 in range(2 * (n_1011 - baris_1011)):
+        print(" ", end="")
+
+    # Deret angka menurun
+    for angka_1011 in range(baris_1011, 0, -1):
+        print(angka_1011, end=" ")
+
+    # Poros kristal
+    print("<*>", end="")
+
+    # Deret angka menaik
+    for angka_1011 in range(1, baris_1011 + 1):
+        print(" ", end="")
+        print(angka_1011, end="")
+
+    # Spasi penyeimbang kanan
+    for spasi_1011 in range(2 * (n_1011 - baris_1011)):
+        print(" ", end="")
+
+    print(" |")
+
+# Fase 2: Poros titik pusat
+print("| ", end="")
+
+for spasi_1011 in range(2 * n_1011 + 1):
+    print(" ", end="")
+
+print("<*>", end="")
+
+for spasi_1011 in range(2 * n_1011 + 1):
+    print(" ", end="")
+
+print(" |")
+
+# Fase 3: Jam Pasir Bawah
+for baris_1011 in range(1, n_1011 + 1):
+    print("| ", end="")
+
+    # Spasi penyeimbang kiri
+    for spasi_1011 in range(2 * (n_1011 - baris_1011)):
+        print(" ", end="")
+
+    # Deret angka menurun
+    for angka_1011 in range(baris_1011, 0, -1):
+        print(angka_1011, end=" ")
+
+    # Poros kristal
+    print("<*>", end="")
+
+    # Deret angka menaik
+    for angka_1011 in range(1, baris_1011 + 1):
+        print(" ", end="")
+        print(angka_1011, end="")
+
+    # Spasi penyeimbang kanan
+    for spasi_1011 in range(2 * (n_1011 - baris_1011)):
+        print(" ", end="")
+
+    print(" |")
+
+# Border bawah
+print("#", end="")
+
+for i_1011 in range(4 * n_1011 + 5):
+    print("=", end="")
+
+print("#")
